@@ -8,6 +8,10 @@ header {
     border-bottom: 2px solid orange;
 }
 
+img {
+    width: 120px;
+}
+
 nav {
     height: 124px; 
     display: flex;  
@@ -29,7 +33,16 @@ h1 {
     align-items: center;
     justify-content: center;
     margin: 40px 0;   
-    gap: 50px;
+    gap: 50px;   
+}
+
+.container div p{
+    border: 1px solid orange;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: orange;
+    color: black;
+
 }
 
 .rodape {
@@ -45,7 +58,11 @@ h1 {
     justify-content: center;
     padding-bottom: 25px;   
     margin-top: 25px;
-   
+}
+
+.rodape div {
+    margin-bottom: 40px;
+    text-align: center;
 }
 
 .botaoFalso {
@@ -64,7 +81,4 @@ h1 {
 
 
 
-img {
-    width: 120px;
-}
 
