@@ -1,0 +1,70 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+    gap: 300px;    
+    margin-bottom: 25px;
+    border-bottom: 2px solid orange;
+}
+
+nav {
+    height: 124px; 
+    display: flex;  
+    align-items: center;
+    gap: 70px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    margin: 0 60px;
+}
+
+.container div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0;   
+    gap: 50px;
+}
+
+.rodape {
+    border-top: 2px solid orange; 
+    display: flex;  
+    align-items: center;
+    justify-content: space-around;
+}
+
+.rodape-Paragrafo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 25px;   
+    margin-top: 25px;
+   
+}
+
+.botaoFalso {
+    all: unset;
+    background-color: orange;  
+    border-radius: 2px;
+    margin: auto 0;
+    cursor: pointer;
+    padding: 5px;
+    color: black;
+}  
+
+
+
+
+
+
+
+img {
+    width: 120px;
+}
+
